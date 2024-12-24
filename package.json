@@ -1,0 +1,19 @@
+{
+  "name": "lfw111",
+  "version": "1.0.0",
+  "description": "Linux Foundation Training LFW111",
+  "main": "app.js",
+  "scripts": {
+    "static": "serve -p 5050 static",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eli Soares De Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^6.0.3",
+    "@fastify/cors": "^10.0.1",
+    "fastify": "^5.2.0",
+    "fastify-cli": "^7.3.0",
+    "serve": "^14.2.4"
+  }
+}

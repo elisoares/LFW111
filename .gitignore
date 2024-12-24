@@ -1,0 +1,27 @@
+
+.DS_Store
+**.DS_Store
+
+
+# Ignorar todas as pastas node_modules em qualquer nível
+**/node_modules
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# 0x
+profile-*
+
+# mac files
+.DS_Store
+
+# vim swap files
